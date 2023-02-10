@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Message">
+  <test name="Bike">
+    <classes>
+      <class name="testng.Day1"/>
+      
+      
+    </classes>
+    </test>
+    
+    
+    <test name="react">
+    <classes>
+    <class name="testng.Day2">
+    <methods> 
+    <exclude name="snake"/>
+    
+    </methods>
+    </class>
+    </classes>
+    </test>
+    
+</suite> 
