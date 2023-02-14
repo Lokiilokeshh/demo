@@ -13,6 +13,9 @@ public class Fb {
 		System.setProperty("webdriver.chrome.driver","./software/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
+		System.out.println("lokii");
+		System.out.println("lokii");
+		System.out.println("lokii");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://www.facebook.com/login");
 		driver.findElement(By.id("email")).sendKeys("sklmlokesh@gmail.com");
